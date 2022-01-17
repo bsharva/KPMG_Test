@@ -1,0 +1,12 @@
+project         = "abc-12345-xyz-prpd"
+zone            = "europe-west-2b"
+image_name      = "abc-rhel7-xyz"
+boot_disk_name  = "nginx-web-disk-prod"
+instance_nmae   = "abcd-prod"
+instance_type   = "n1-standard-1"
+
+network_interface = [
+   {
+      subnetwrok    = "projects/abc/prod/xyx"
+   }
+service_account = "abc-xyz@abc.com"
