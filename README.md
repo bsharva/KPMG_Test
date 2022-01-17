@@ -3,6 +3,8 @@
 1) Challenge 1 : 
 A 3-tier environment is a common setup. Use a tool of your choosing/familiarity create these resources. Please remember we will not be judged on the outcome but more focusing on the approach, style and reproducibility.
 
+Solution : Its a terroform code under folders 'module' and 'packages' in repo
+
 Approach :
 
 THe 3-tier environment I used is build on GCP plaform. It consists of a nginx webserver, a GCP VM instance to host nginx and Cloud SQL as a database. The code is build using terraform.
