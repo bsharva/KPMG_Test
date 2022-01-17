@@ -1,0 +1,14 @@
+project         = "abc-12345-xyz-dev"
+zone            = "europe-west-2b"
+image_name      = "abc-rhel7-xyz"
+boot_disk_name  = "nginx-web-disk-dev"
+instance_nmae   = "abcd-dev"
+instance_type   = "n1-standard-1"
+
+network_interface = [
+   {
+      subnetwrok    = "projects/abc/dev/xyx"
+   }
+service_account = "abc-xyz@abc.com"
+      
+  
